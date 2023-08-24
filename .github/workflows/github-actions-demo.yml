@@ -19,5 +19,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3.5.3
       - run: echo ${{ github.event_name }}
-      - run: echo ${{ github..ref }}
+      - run: echo ${{ github.ref }}
       - run: tree
